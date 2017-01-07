@@ -21,4 +21,4 @@ pom.xml.asc
 .lein-plugins/
 .lein-failures
 .nrepl-port
->>>>>>> 8ede69ff6add2511931466b6c514ecc47b86a6ce
+*.html

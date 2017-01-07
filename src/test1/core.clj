@@ -1,23 +1,20 @@
 (ns test1.core
-  (:gen-class))
+  (:gen-class)
+  (:require [clj-http.client :as client]))
 
 (declare search-string)
 
 (defn -main
   "I don't do a whole lot ... yet."
   [& args]
-  ; (log "Hello, World!" 1 2 3)
-  ;(future-test)
-  ;(future-test)
-  ;(wisdom-test)
-  (def engines {:bing "http://www.bing.com/?q=" :google "http://www.google.com/?#q="})
+  (def engines {:bing "http://www.bing.com/?q=" :google "http://www.google.com/search?q="})
   (search-string "Daniele" engines)
 )
 
 (defn search-string [arg engines]
     ( doseq [engine engines]
-      (let [result (future (slurp (str (val engine) arg)))]
-        (println "--> " (key engine) (count @result)) (spit (str (key engine) "-" arg ".html") @result)
+      (let [result (future (client/get (str (val engine) arg)))]
+        (println "--> " (key engine) (count (:body @result))) (spit (str (key engine) "-" arg ".html") (:body @result))
     )
   ))
 
