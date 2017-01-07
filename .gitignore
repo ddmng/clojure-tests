@@ -9,3 +9,16 @@ pom.xml.asc
 /.nrepl-port
 .hgignore
 .hg/
+pom.xml
+pom.xml.asc
+*jar
+/lib/
+/classes/
+/target/
+/checkouts/
+.lein-deps-sum
+.lein-repl-history
+.lein-plugins/
+.lein-failures
+.nrepl-port
+>>>>>>> 8ede69ff6add2511931466b6c514ecc47b86a6ce
