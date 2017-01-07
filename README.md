@@ -4,6 +4,7 @@ Playing a bit with clojure
 
 Following tutorial and articles to learn clj.
 List of tutorials/articles:
+
 1. http://www.braveclojure.com/concurrency/
 
 
