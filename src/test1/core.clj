@@ -1,6 +1,6 @@
 (ns test1.core
   (:gen-class)
-  (:require [clj-http.client :as client]))
+  (:require [clj-http.client :as client] ))
 
 (declare search-string)
 
@@ -10,6 +10,10 @@
   (def engines {:bing "http://www.bing.com/?q=" :google "http://www.google.com/search?q="})
   (search-string "Daniele" engines)
 )
+
+(println
+  (loop [a 1 b 2]
+         (if (>= a 20) a (recur (+ a 1) 1 ))))
 
 (defn search-string [arg engines]
     ( doseq [engine engines]
