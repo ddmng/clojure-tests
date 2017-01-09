@@ -1,6 +1,6 @@
 (ns test1.core
   (:gen-class)
-  (:require [clj-http.client :as client] ))
+  (:require [clj-http.client :as client] [clojure.data.json :as json]))
 
 (declare search-string)
 

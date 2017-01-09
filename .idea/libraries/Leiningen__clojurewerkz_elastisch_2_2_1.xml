@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Leiningen: clojurewerkz/elastisch:2.2.1">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/clojurewerkz/elastisch/2.2.1/elastisch-2.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

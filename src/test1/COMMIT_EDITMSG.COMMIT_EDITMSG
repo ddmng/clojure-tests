@@ -1,0 +1,1798 @@
+testing elastish
+
+
+
+# --------------
+# Please enter the commit message for your changes. Everything below
+# this paragraph is ignored, and an empty message aborts the commit.
+# Just close the window to accept your message.
+diff --git a/.idea/compiler.xml b/.idea/compiler.xml
+new file mode 100644
+index 0000000..9deeaef
+--- /dev/null
++++ b/.idea/compiler.xml
+@@ -0,0 +1,18 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="CompilerConfiguration">
++    <wildcardResourcePatterns>
++      <entry name="!dev-resources:*" />
++      <entry name="!resources:*" />
++      <entry name="!?*.java" />
++      <entry name="!?*.form" />
++      <entry name="!?*.class" />
++      <entry name="!?*.groovy" />
++      <entry name="!?*.scala" />
++      <entry name="!?*.flex" />
++      <entry name="!?*.kt" />
++      <entry name="!?*.clj" />
++      <entry name="!?*.aj" />
++    </wildcardResourcePatterns>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/encodings.xml b/.idea/encodings.xml
+new file mode 100644
+index 0000000..97626ba
+--- /dev/null
++++ b/.idea/encodings.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Encoding">
++    <file url="PROJECT" charset="UTF-8" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__cheshire_5_5_0.xml b/.idea/libraries/Leiningen__cheshire_5_5_0.xml
+new file mode 100644
+index 0000000..814450b
+--- /dev/null
++++ b/.idea/libraries/Leiningen__cheshire_5_5_0.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: cheshire:5.5.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/cheshire/cheshire/5.5.0/cheshire-5.5.0.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__clj_http_2_3_0.xml b/.idea/libraries/Leiningen__clj_http_2_3_0.xml
+new file mode 100644
+index 0000000..24a86ab
+--- /dev/null
++++ b/.idea/libraries/Leiningen__clj_http_2_3_0.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: clj-http:2.3.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/clj-http/clj-http/2.3.0/clj-http-2.3.0.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__clj_tuple_0_2_2.xml b/.idea/libraries/Leiningen__clj_tuple_0_2_2.xml
+new file mode 100644
+index 0000000..732be9a
+--- /dev/null
++++ b/.idea/libraries/Leiningen__clj_tuple_0_2_2.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: clj-tuple:0.2.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/clj-tuple/clj-tuple/0.2.2/clj-tuple-0.2.2.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__clojure_complete_0_2_4.xml b/.idea/libraries/Leiningen__clojure_complete_0_2_4.xml
+new file mode 100644
+index 0000000..5c3a95e
+--- /dev/null
++++ b/.idea/libraries/Leiningen__clojure_complete_0_2_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: clojure-complete:0.2.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/clojure-complete/clojure-complete/0.2.4/clojure-complete-0.2.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__clojurewerkz_elastisch_2_2_1.xml b/.idea/libraries/Leiningen__clojurewerkz_elastisch_2_2_1.xml
+new file mode 100644
+index 0000000..2f64659
+--- /dev/null
++++ b/.idea/libraries/Leiningen__clojurewerkz_elastisch_2_2_1.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: clojurewerkz/elastisch:2.2.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/clojurewerkz/elastisch/2.2.1/elastisch-2.2.1.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__clojurewerkz_support_1_1_0.xml b/.idea/libraries/Leiningen__clojurewerkz_support_1_1_0.xml
+new file mode 100644
+index 0000000..3c0387e
+--- /dev/null
++++ b/.idea/libraries/Leiningen__clojurewerkz_support_1_1_0.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: clojurewerkz/support:1.1.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/clojurewerkz/support/1.1.0/support-1.1.0.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__com_fasterxml_jackson_core_jackson_core_2_5_3.xml b/.idea/libraries/Leiningen__com_fasterxml_jackson_core_jackson_core_2_5_3.xml
+new file mode 100644
+index 0000000..31e7171
+--- /dev/null
++++ b/.idea/libraries/Leiningen__com_fasterxml_jackson_core_jackson_core_2_5_3.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: com.fasterxml.jackson.core/jackson-core:2.5.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/core/jackson-core/2.5.3/jackson-core-2.5.3.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_5_3.xml b/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_5_3.xml
+new file mode 100644
+index 0000000..8e8f617
+--- /dev/null
++++ b/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_5_3.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: com.fasterxml.jackson.dataformat/jackson-dataformat-cbor:2.5.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-cbor/2.5.3/jackson-dataformat-cbor-2.5.3.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_5_3.xml b/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_5_3.xml
+new file mode 100644
+index 0000000..39cd25a
+--- /dev/null
++++ b/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_5_3.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: com.fasterxml.jackson.dataformat/jackson-dataformat-smile:2.5.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.5.3/jackson-dataformat-smile-2.5.3.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__com_spatial4j_spatial4j_0_4_1.xml b/.idea/libraries/Leiningen__com_spatial4j_spatial4j_0_4_1.xml
+new file mode 100644
+index 0000000..e83f637
+--- /dev/null
++++ b/.idea/libraries/Leiningen__com_spatial4j_spatial4j_0_4_1.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: com.spatial4j/spatial4j:0.4.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/com/spatial4j/spatial4j/0.4.1/spatial4j-0.4.1.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__commons_codec_1_10.xml b/.idea/libraries/Leiningen__commons_codec_1_10.xml
+new file mode 100644
+index 0000000..a15e0de
+--- /dev/null
++++ b/.idea/libraries/Leiningen__commons_codec_1_10.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: commons-codec:1.10">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.10/commons-codec-1.10.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__commons_io_2_5.xml b/.idea/libraries/Leiningen__commons_io_2_5.xml
+new file mode 100644
+index 0000000..2ece172
+--- /dev/null
++++ b/.idea/libraries/Leiningen__commons_io_2_5.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: commons-io:2.5">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/commons-io/commons-io/2.5/commons-io-2.5.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__commons_logging_1_2.xml b/.idea/libraries/Leiningen__commons_logging_1_2.xml
+new file mode 100644
+index 0000000..bd34bfe
+--- /dev/null
++++ b/.idea/libraries/Leiningen__commons_logging_1_2.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: commons-logging:1.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/commons-logging/commons-logging/1.2/commons-logging-1.2.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_httpcomponents_httpclient_4_5_2.xml b/.idea/libraries/Leiningen__org_apache_httpcomponents_httpclient_4_5_2.xml
+new file mode 100644
+index 0000000..0b58345
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_httpcomponents_httpclient_4_5_2.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.httpcomponents/httpclient:4.5.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpclient/4.5.2/httpclient-4.5.2.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_4_4_5.xml b/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_4_4_5.xml
+new file mode 100644
+index 0000000..41ee15a
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_4_4_5.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.httpcomponents/httpcore:4.4.5">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpcore/4.4.5/httpcore-4.4.5.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_httpcomponents_httpmime_4_5_2.xml b/.idea/libraries/Leiningen__org_apache_httpcomponents_httpmime_4_5_2.xml
+new file mode 100644
+index 0000000..a3366a6
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_httpcomponents_httpmime_4_5_2.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.httpcomponents/httpmime:4.5.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/httpcomponents/httpmime/4.5.2/httpmime-4.5.2.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_lucene_lucene_analyzers_common_4_10_4.xml b/.idea/libraries/Leiningen__org_apache_lucene_lucene_analyzers_common_4_10_4.xml
+new file mode 100644
+index 0000000..7233853
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_lucene_lucene_analyzers_common_4_10_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.lucene/lucene-analyzers-common:4.10.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-analyzers-common/4.10.4/lucene-analyzers-common-4.10.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_lucene_lucene_core_4_10_4.xml b/.idea/libraries/Leiningen__org_apache_lucene_lucene_core_4_10_4.xml
+new file mode 100644
+index 0000000..54e6997
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_lucene_lucene_core_4_10_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.lucene/lucene-core:4.10.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.4/lucene-core-4.10.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_lucene_lucene_grouping_4_10_4.xml b/.idea/libraries/Leiningen__org_apache_lucene_lucene_grouping_4_10_4.xml
+new file mode 100644
+index 0000000..2717ed9
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_lucene_lucene_grouping_4_10_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.lucene/lucene-grouping:4.10.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-grouping/4.10.4/lucene-grouping-4.10.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_lucene_lucene_highlighter_4_10_4.xml b/.idea/libraries/Leiningen__org_apache_lucene_lucene_highlighter_4_10_4.xml
+new file mode 100644
+index 0000000..c8cfb38
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_lucene_lucene_highlighter_4_10_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.lucene/lucene-highlighter:4.10.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-highlighter/4.10.4/lucene-highlighter-4.10.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_lucene_lucene_join_4_10_4.xml b/.idea/libraries/Leiningen__org_apache_lucene_lucene_join_4_10_4.xml
+new file mode 100644
+index 0000000..b2a6c15
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_lucene_lucene_join_4_10_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.lucene/lucene-join:4.10.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-join/4.10.4/lucene-join-4.10.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_lucene_lucene_memory_4_10_4.xml b/.idea/libraries/Leiningen__org_apache_lucene_lucene_memory_4_10_4.xml
+new file mode 100644
+index 0000000..e044a90
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_lucene_lucene_memory_4_10_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.lucene/lucene-memory:4.10.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-memory/4.10.4/lucene-memory-4.10.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_lucene_lucene_misc_4_10_4.xml b/.idea/libraries/Leiningen__org_apache_lucene_lucene_misc_4_10_4.xml
+new file mode 100644
+index 0000000..e33b76e
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_lucene_lucene_misc_4_10_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.lucene/lucene-misc:4.10.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-misc/4.10.4/lucene-misc-4.10.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_lucene_lucene_queries_4_10_4.xml b/.idea/libraries/Leiningen__org_apache_lucene_lucene_queries_4_10_4.xml
+new file mode 100644
+index 0000000..149a22a
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_lucene_lucene_queries_4_10_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.lucene/lucene-queries:4.10.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queries/4.10.4/lucene-queries-4.10.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_lucene_lucene_queryparser_4_10_4.xml b/.idea/libraries/Leiningen__org_apache_lucene_lucene_queryparser_4_10_4.xml
+new file mode 100644
+index 0000000..658e4f1
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_lucene_lucene_queryparser_4_10_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.lucene/lucene-queryparser:4.10.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-queryparser/4.10.4/lucene-queryparser-4.10.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_lucene_lucene_sandbox_4_10_4.xml b/.idea/libraries/Leiningen__org_apache_lucene_lucene_sandbox_4_10_4.xml
+new file mode 100644
+index 0000000..9442313
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_lucene_lucene_sandbox_4_10_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.lucene/lucene-sandbox:4.10.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-sandbox/4.10.4/lucene-sandbox-4.10.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_lucene_lucene_spatial_4_10_4.xml b/.idea/libraries/Leiningen__org_apache_lucene_lucene_spatial_4_10_4.xml
+new file mode 100644
+index 0000000..de0dd6b
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_lucene_lucene_spatial_4_10_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.lucene/lucene-spatial:4.10.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-spatial/4.10.4/lucene-spatial-4.10.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_apache_lucene_lucene_suggest_4_10_4.xml b/.idea/libraries/Leiningen__org_apache_lucene_lucene_suggest_4_10_4.xml
+new file mode 100644
+index 0000000..f1c5f12
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_apache_lucene_lucene_suggest_4_10_4.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.apache.lucene/lucene-suggest:4.10.4">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-suggest/4.10.4/lucene-suggest-4.10.4.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_clojure_clojure_1_8_0.xml b/.idea/libraries/Leiningen__org_clojure_clojure_1_8_0.xml
+new file mode 100644
+index 0000000..28a655e
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_clojure_clojure_1_8_0.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.clojure/clojure:1.8.0">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_clojure_data_json_0_2_6.xml b/.idea/libraries/Leiningen__org_clojure_data_json_0_2_6.xml
+new file mode 100644
+index 0000000..6334c07
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_clojure_data_json_0_2_6.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.clojure/data.json:0.2.6">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/clojure/data.json/0.2.6/data.json-0.2.6.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_clojure_tools_nrepl_0_2_12.xml b/.idea/libraries/Leiningen__org_clojure_tools_nrepl_0_2_12.xml
+new file mode 100644
+index 0000000..9e0ab2d
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_clojure_tools_nrepl_0_2_12.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.clojure/tools.nrepl:0.2.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/clojure/tools.nrepl/0.2.12/tools.nrepl-0.2.12.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_elasticsearch_elasticsearch_1_7_3.xml b/.idea/libraries/Leiningen__org_elasticsearch_elasticsearch_1_7_3.xml
+new file mode 100644
+index 0000000..a0698a5
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_elasticsearch_elasticsearch_1_7_3.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.elasticsearch/elasticsearch:1.7.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/elasticsearch/elasticsearch/1.7.3/elasticsearch-1.7.3.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__org_yaml_snakeyaml_1_12.xml b/.idea/libraries/Leiningen__org_yaml_snakeyaml_1_12.xml
+new file mode 100644
+index 0000000..94af6d8
+--- /dev/null
++++ b/.idea/libraries/Leiningen__org_yaml_snakeyaml_1_12.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: org.yaml/snakeyaml:1.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/org/yaml/snakeyaml/1.12/snakeyaml-1.12.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__potemkin_0_4_3.xml b/.idea/libraries/Leiningen__potemkin_0_4_3.xml
+new file mode 100644
+index 0000000..c91302c
+--- /dev/null
++++ b/.idea/libraries/Leiningen__potemkin_0_4_3.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: potemkin:0.4.3">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/potemkin/potemkin/0.4.3/potemkin-0.4.3.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__riddley_0_1_12.xml b/.idea/libraries/Leiningen__riddley_0_1_12.xml
+new file mode 100644
+index 0000000..8b05b3f
+--- /dev/null
++++ b/.idea/libraries/Leiningen__riddley_0_1_12.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: riddley:0.1.12">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/riddley/riddley/0.1.12/riddley-0.1.12.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__slingshot_0_12_2.xml b/.idea/libraries/Leiningen__slingshot_0_12_2.xml
+new file mode 100644
+index 0000000..9453b47
+--- /dev/null
++++ b/.idea/libraries/Leiningen__slingshot_0_12_2.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: slingshot:0.12.2">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/slingshot/slingshot/0.12.2/slingshot-0.12.2.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/libraries/Leiningen__tigris_0_1_1.xml b/.idea/libraries/Leiningen__tigris_0_1_1.xml
+new file mode 100644
+index 0000000..0d076d4
+--- /dev/null
++++ b/.idea/libraries/Leiningen__tigris_0_1_1.xml
+@@ -0,0 +1,9 @@
++<component name="libraryTable">
++  <library name="Leiningen: tigris:0.1.1">
++    <CLASSES>
++      <root url="jar://$MAVEN_REPOSITORY$/tigris/tigris/0.1.1/tigris-0.1.1.jar!/" />
++    </CLASSES>
++    <JAVADOC />
++    <SOURCES />
++  </library>
++</component>
+\ No newline at end of file
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+index 0000000..89e58fe
+--- /dev/null
++++ b/.idea/misc.xml
+@@ -0,0 +1,11 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="LeiningenProjectsManager">
++    <option name="projectFiles">
++      <list>
++        <option value="file://$PROJECT_DIR$/project.clj" />
++      </list>
++    </option>
++  </component>
++  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
++</project>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+index 0000000..fb944eb
+--- /dev/null
++++ b/.idea/modules.xml
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/test1.iml" filepath="$PROJECT_DIR$/.idea/test1.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/replstate.xml b/.idea/replstate.xml
+new file mode 100644
+index 0000000..bde8eae
+--- /dev/null
++++ b/.idea/replstate.xml
+@@ -0,0 +1,4 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ReplState" timestamp="1483974432120">{:repl-history {:ide [], :local [&quot;(inc accessor\n     )&quot; &quot;(let [a 10] (inc a)) &quot; &quot;(println \&quot;ciao\&quot;)&quot; &quot;(exit)&quot;], :remote []}}</component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/test1.iml b/.idea/test1.iml
+new file mode 100644
+index 0000000..4ce7abf
+--- /dev/null
++++ b/.idea/test1.iml
+@@ -0,0 +1,54 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module cursive.leiningen.project.LeiningenProjectsManager.displayName="test1:0.1.0-SNAPSHOT" cursive.leiningen.project.LeiningenProjectsManager.isLeinModule="true" type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <output url="file://$MODULE_DIR$/target/base+system+user+dev/classes" />
++    <output-test url="file://$MODULE_DIR$/target/base+system+user+dev/classes" />
++    <exclude-output />
++    <content url="file://$MODULE_DIR$">
++      <sourceFolder url="file://$MODULE_DIR$/resources" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/dev-resources" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
++      <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
++      <excludeFolder url="file://$MODULE_DIR$/target/base+system+user+dev" />
++    </content>
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++    <orderEntry type="library" name="Leiningen: cheshire:5.5.0" level="project" />
++    <orderEntry type="library" name="Leiningen: clj-http:2.3.0" level="project" />
++    <orderEntry type="library" name="Leiningen: clj-tuple:0.2.2" level="project" />
++    <orderEntry type="library" name="Leiningen: clojure-complete:0.2.4" level="project" />
++    <orderEntry type="library" name="Leiningen: clojurewerkz/elastisch:2.2.1" level="project" />
++    <orderEntry type="library" name="Leiningen: clojurewerkz/support:1.1.0" level="project" />
++    <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.core/jackson-core:2.5.3" level="project" />
++    <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.dataformat/jackson-dataformat-cbor:2.5.3" level="project" />
++    <orderEntry type="library" name="Leiningen: com.fasterxml.jackson.dataformat/jackson-dataformat-smile:2.5.3" level="project" />
++    <orderEntry type="library" name="Leiningen: com.spatial4j/spatial4j:0.4.1" level="project" />
++    <orderEntry type="library" name="Leiningen: commons-codec:1.10" level="project" />
++    <orderEntry type="library" name="Leiningen: commons-io:2.5" level="project" />
++    <orderEntry type="library" name="Leiningen: commons-logging:1.2" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.httpcomponents/httpclient:4.5.2" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.httpcomponents/httpcore:4.4.5" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.httpcomponents/httpmime:4.5.2" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.lucene/lucene-analyzers-common:4.10.4" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.lucene/lucene-core:4.10.4" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.lucene/lucene-grouping:4.10.4" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.lucene/lucene-highlighter:4.10.4" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.lucene/lucene-join:4.10.4" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.lucene/lucene-memory:4.10.4" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.lucene/lucene-misc:4.10.4" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.lucene/lucene-queries:4.10.4" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.lucene/lucene-queryparser:4.10.4" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.lucene/lucene-sandbox:4.10.4" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.lucene/lucene-spatial:4.10.4" level="project" />
++    <orderEntry type="library" name="Leiningen: org.apache.lucene/lucene-suggest:4.10.4" level="project" />
++    <orderEntry type="library" name="Leiningen: org.clojure/clojure:1.8.0" level="project" />
++    <orderEntry type="library" name="Leiningen: org.clojure/data.json:0.2.6" level="project" />
++    <orderEntry type="library" name="Leiningen: org.clojure/tools.nrepl:0.2.12" level="project" />
++    <orderEntry type="library" name="Leiningen: org.elasticsearch/elasticsearch:1.7.3" level="project" />
++    <orderEntry type="library" name="Leiningen: org.yaml/snakeyaml:1.12" level="project" />
++    <orderEntry type="library" name="Leiningen: potemkin:0.4.3" level="project" />
++    <orderEntry type="library" name="Leiningen: riddley:0.1.12" level="project" />
++    <orderEntry type="library" name="Leiningen: slingshot:0.12.2" level="project" />
++    <orderEntry type="library" name="Leiningen: tigris:0.1.1" level="project" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+index 0000000..35eb1dd
+--- /dev/null
++++ b/.idea/vcs.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+index 0000000..b72b459
+--- /dev/null
++++ b/.idea/workspace.xml
+@@ -0,0 +1,886 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ChangeListManager">
++    <list default="true" id="b5cad9ee-cc09-4fcf-b9ed-6a04d94638a7" name="Default" comment="">
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__cheshire_5_5_0.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_http_2_3_0.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clj_tuple_0_2_2.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojure_complete_0_2_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojurewerkz_elastisch_2_2_1.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__clojurewerkz_support_1_1_0.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_core_jackson_core_2_5_3.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_5_3.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_5_3.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__com_spatial4j_spatial4j_0_4_1.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_codec_1_10.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_io_2_5.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_logging_1_2.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpclient_4_5_2.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpcore_4_4_5.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_httpcomponents_httpmime_4_5_2.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_lucene_lucene_analyzers_common_4_10_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_lucene_lucene_core_4_10_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_lucene_lucene_grouping_4_10_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_lucene_lucene_highlighter_4_10_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_lucene_lucene_join_4_10_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_lucene_lucene_memory_4_10_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_lucene_lucene_misc_4_10_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_lucene_lucene_queries_4_10_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_lucene_lucene_queryparser_4_10_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_lucene_lucene_sandbox_4_10_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_lucene_lucene_spatial_4_10_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_apache_lucene_lucene_suggest_4_10_4.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_clojure_1_8_0.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_data_json_0_2_6.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_nrepl_0_2_12.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_elasticsearch_elasticsearch_1_7_3.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_yaml_snakeyaml_1_12.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__potemkin_0_4_3.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__riddley_0_1_12.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__slingshot_0_12_2.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Leiningen__tigris_0_1_1.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test1/elastictest.clj" />
++      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/test.json" />
++      <change type="DELETED" beforePath="$PROJECT_DIR$/test/test1/core_test.clj" afterPath="" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
++      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test1/core.clj" afterPath="$PROJECT_DIR$/src/test1/core.clj" />
++    </list>
++    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
++    <option name="TRACKING_ENABLED" value="true" />
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="CreatePatchCommitExecutor">
++    <option name="PATCH_PATH" value="" />
++  </component>
++  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
++  <component name="FavoritesManager">
++    <favorites_list name="test1" />
++  </component>
++  <component name="FileEditorManager">
++    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
++      <file leaf-file-name="LICENSE" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/LICENSE">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="0">
++              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
++        <entry file="file://$PROJECT_DIR$/project.clj">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="216">
++              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="47" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++      <file leaf-file-name="elastictest.clj" pinned="false" current-in-tab="true">
++        <entry file="file://$PROJECT_DIR$/src/test1/elastictest.clj">
++          <provider selected="true" editor-type-id="text-editor">
++            <state relative-caret-position="286">
++              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
++              <folding />
++            </state>
++          </provider>
++        </entry>
++      </file>
++    </leaf>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="GradleLocalSettings">
++    <option name="modificationStamps">
++      <map>
++        <entry key="$PROJECT_DIR$/../../../../tmp/gradle-docker" value="1461312920344" />
++      </map>
++    </option>
++    <option name="externalProjectsViewState">
++      <projects_view />
++    </option>
++  </component>
++  <component name="IdeDocumentHistory">
++    <option name="CHANGED_PATHS">
++      <list>
++        <option value="$PROJECT_DIR$/src/test1/boh.clj" />
++        <option value="$PROJECT_DIR$/src/test1/core.clj" />
++        <option value="$PROJECT_DIR$/test.json" />
++        <option value="$PROJECT_DIR$/project.clj" />
++        <option value="$PROJECT_DIR$/src/test1/elastictest.clj" />
++      </list>
++    </option>
++  </component>
++  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
++  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
++  <component name="JsGulpfileManager">
++    <detection-done>true</detection-done>
++    <sorting>DEFINITION_ORDER</sorting>
++  </component>
++  <component name="ProjectFrameBounds">
++    <option name="y" value="30" />
++    <option name="width" value="1920" />
++    <option name="height" value="1050" />
++  </component>
++  <component name="ProjectView">
++    <navigator currentView="ProjectPane" proportions="" version="1">
++      <flattenPackages />
++      <showMembers />
++      <showModules />
++      <showLibraryContents />
++      <hideEmptyPackages />
++      <abbreviatePackageNames />
++      <autoscrollToSource />
++      <autoscrollFromSource />
++      <sortByType />
++      <manualOrder />
++      <foldersAlwaysOnTop value="true" />
++    </navigator>
++    <panes>
++      <pane id="Scratches" />
++      <pane id="ProjectPane">
++        <subPane>
++          <PATH>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="test1" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="test1" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++          </PATH>
++          <PATH>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="test1" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="test1" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="src" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++            <PATH_ELEMENT>
++              <option name="myItemId" value="test1" />
++              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
++            </PATH_ELEMENT>
++          </PATH>
++        </subPane>
++      </pane>
++      <pane id="PackagesPane" />
++      <pane id="Scope" />
++    </panes>
++  </component>
++  <component name="PropertiesComponent">
++    <property name="settings.editor.selected.configurable" value="Leiningen" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../jelly/jellyfish/process/housekeeping_es" />
++    <property name="WebServerToolWindowFactoryState" value="false" />
++    <property name="project.structure.last.edited" value="Project" />
++    <property name="project.structure.proportion" value="0.0" />
++    <property name="project.structure.side.proportion" value="0.0" />
++    <property name="nodejs_interpreter_path" value="/usr/bin/node" />
++    <property name="js.eslint.eslintPackage" value="" />
++    <property name="cursive.last.file.extension./home/daneel/Sources/tests/clojure/learning/test1/src" value="clj" />
++    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
++    <property name="node.js.path.for.package.jscs" value="project" />
++    <property name="node.js.selected.package.jscs" value="" />
++    <property name="node.js.path.for.package.eslint" value="project" />
++    <property name="node.js.selected.package.eslint" value="" />
++  </component>
++  <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="$PROJECT_DIR$/src/test1" />
++    </key>
++  </component>
++  <component name="ReplState" timestamp="1483974432120">{:repl-history {:ide [], :local [&quot;(inc accessor\n     )&quot; &quot;(let [a 10] (inc a)) &quot; &quot;(println \&quot;ciao\&quot;)&quot; &quot;(exit)&quot;], :remote []}}</component>
++  <component name="RunManager" selected="Clojure Application.Run">
++    <configuration default="true" type="Applet" factoryName="Applet">
++      <option name="HTML_USED" value="false" />
++      <option name="WIDTH" value="400" />
++      <option name="HEIGHT" value="300" />
++      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
++      <module />
++      <method />
++    </configuration>
++    <configuration default="true" type="Application" factoryName="Application">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="VM_PARAMETERS" />
++      <option name="PROGRAM_PARAMETERS" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="ENABLE_SWING_INSPECTOR" value="false" />
++      <option name="ENV_VARIABLES" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <module name="" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <module name="" />
++      <option name="arquillianRunConfiguration">
++        <value>
++          <option name="containerStateName" value="" />
++        </value>
++      </option>
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="PACKAGE_NAME" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="METHOD_NAME" />
++      <option name="TEST_OBJECT" value="class" />
++      <option name="VM_PARAMETERS" />
++      <option name="PARAMETERS" />
++      <option name="WORKING_DIRECTORY" />
++      <option name="ENV_VARIABLES" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <option name="TEST_SEARCH_SCOPE">
++        <value defaultName="singleModule" />
++      </option>
++      <envs />
++      <patterns />
++      <method />
++    </configuration>
++    <configuration default="true" type="ArquillianTestNG" factoryName="">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <module name="" />
++      <option name="arquillianRunConfiguration">
++        <value>
++          <option name="containerStateName" value="" />
++        </value>
++      </option>
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="SUITE_NAME" />
++      <option name="PACKAGE_NAME" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="METHOD_NAME" />
++      <option name="GROUP_NAME" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="VM_PARAMETERS" />
++      <option name="PARAMETERS" />
++      <option name="WORKING_DIRECTORY" />
++      <option name="OUTPUT_DIRECTORY" />
++      <option name="ANNOTATION_TYPE" />
++      <option name="ENV_VARIABLES" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <option name="TEST_SEARCH_SCOPE">
++        <value defaultName="singleModule" />
++      </option>
++      <option name="USE_DEFAULT_REPORTERS" value="false" />
++      <option name="PROPERTIES_FILE" />
++      <envs />
++      <properties />
++      <listeners />
++      <method />
++    </configuration>
++    <configuration default="true" type="BashConfigurationType" factoryName="Bash">
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="INTERPRETER_PATH" value="/bin/bash" />
++      <option name="WORKING_DIRECTORY" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <option name="SCRIPT_NAME" value="" />
++      <option name="PARAMETERS" value="" />
++      <module name="" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="ClojureREPL" factoryName="Local">
++      <setting name="replType" value="1" />
++      <module name="" />
++      <setting name="jvmArgs" value="" />
++      <setting name="parameters" value="" />
++      <setting name="workingDir" value="" />
++      <setting name="profiles" value="" />
++      <method />
++    </configuration>
++    <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
++      <module name="" />
++      <setting name="path" value="" />
++      <setting name="vmparams" value="" />
++      <setting name="params" value="" />
++      <setting name="workDir" value="" />
++      <setting name="repl" value="false" />
++      <method />
++    </configuration>
++    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
++      <method />
++    </configuration>
++    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
++      <ExternalSystemSettings>
++        <option name="executionName" />
++        <option name="externalProjectPath" />
++        <option name="externalSystemIdString" value="GRADLE" />
++        <option name="scriptParameters" />
++        <option name="taskDescriptions">
++          <list />
++        </option>
++        <option name="taskNames">
++          <list />
++        </option>
++        <option name="vmOptions" />
++      </ExternalSystemSettings>
++      <method />
++    </configuration>
++    <configuration default="true" type="JUnit" factoryName="JUnit">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <module name="" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="PACKAGE_NAME" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="METHOD_NAME" />
++      <option name="TEST_OBJECT" value="class" />
++      <option name="VM_PARAMETERS" value="-ea" />
++      <option name="PARAMETERS" />
++      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
++      <option name="ENV_VARIABLES" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <option name="TEST_SEARCH_SCOPE">
++        <value defaultName="singleModule" />
++      </option>
++      <envs />
++      <patterns />
++      <method />
++    </configuration>
++    <configuration default="true" type="JarApplication" factoryName="JAR Application">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <option name="SCRATCH_FILE_ID" value="0" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="VM_PARAMETERS" />
++      <option name="PROGRAM_PARAMETERS" />
++      <option name="WORKING_DIRECTORY" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="ENABLE_SWING_INSPECTOR" value="false" />
++      <option name="ENV_VARIABLES" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <module name="" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
++      <config-file value="" />
++      <node-interpreter value="project" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
++      <method />
++    </configuration>
++    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="VM_PARAMETERS" />
++      <option name="PROGRAM_PARAMETERS" />
++      <option name="WORKING_DIRECTORY" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <module name="test1" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <option name="filePath" />
++      <option name="vmParameters" />
++      <option name="alternativeJrePath" />
++      <option name="programParameters" />
++      <option name="passParentEnvs" value="true" />
++      <option name="workingDirectory" />
++      <option name="isAlternativeJrePathEnabled" value="false" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="LeiningenRunConfiguration" factoryName="Leiningen">
++      <LeiningenRunnerParameters>
++        <option name="myGoals">
++          <list />
++        </option>
++        <option name="myWorkingDirectory" value="" />
++        <option name="profiles" value="" />
++        <option name="trampoline" value="false" />
++      </LeiningenRunnerParameters>
++      <method />
++    </configuration>
++    <configuration default="true" type="Remote" factoryName="Remote">
++      <option name="USE_SOCKET_TRANSPORT" value="true" />
++      <option name="SERVER_MODE" value="false" />
++      <option name="SHMEM_ADDRESS" value="javadebug" />
++      <option name="HOST" value="localhost" />
++      <option name="PORT" value="5005" />
++      <method />
++    </configuration>
++    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <module name="" />
++      <setting name="path" value="" />
++      <setting name="package" value="" />
++      <setting name="vmparams" value="" />
++      <setting name="params" value="" />
++      <setting name="workingDirectory" value="" />
++      <setting name="searchForTest" value="Across module dependencies" />
++      <setting name="testName" value="" />
++      <setting name="testKind" value="Class" />
++      <setting name="showProgressMessages" value="true" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="Specs2RunConfiguration" factoryName="Specs2">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <module name="" />
++      <setting name="path" value="" />
++      <setting name="package" value="" />
++      <setting name="vmparams" value="" />
++      <setting name="params" value="" />
++      <setting name="workingDirectory" value="" />
++      <setting name="searchForTest" value="Across module dependencies" />
++      <setting name="testName" value="" />
++      <setting name="testKind" value="Class" />
++      <setting name="showProgressMessages" value="true" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="TestNG" factoryName="TestNG">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <module name="" />
++      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
++      <option name="ALTERNATIVE_JRE_PATH" />
++      <option name="SUITE_NAME" />
++      <option name="PACKAGE_NAME" />
++      <option name="MAIN_CLASS_NAME" />
++      <option name="METHOD_NAME" />
++      <option name="GROUP_NAME" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <option name="VM_PARAMETERS" value="-ea" />
++      <option name="PARAMETERS" />
++      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
++      <option name="OUTPUT_DIRECTORY" />
++      <option name="ANNOTATION_TYPE" />
++      <option name="ENV_VARIABLES" />
++      <option name="PASS_PARENT_ENVS" value="true" />
++      <option name="TEST_SEARCH_SCOPE">
++        <value defaultName="singleModule" />
++      </option>
++      <option name="USE_DEFAULT_REPORTERS" value="false" />
++      <option name="PROPERTIES_FILE" />
++      <envs />
++      <properties />
++      <listeners />
++      <method />
++    </configuration>
++    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
++      <setting name="environment" value="" />
++      <setting name="specsToExecute" value="" />
++      <setting name="tags" value="" />
++      <setting name="parallelNodes" value="" />
++      <setting name="execInParallel" value="false" />
++      <setting name="programParameters" value="" />
++      <setting name="workingDirectory" value="" />
++      <setting name="moduleName" value="" />
++      <envMap />
++      <setting name="rowsRange" value="" />
++      <method />
++    </configuration>
++    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
++      <node-interpreter>project</node-interpreter>
++      <node-options />
++      <gulpfile />
++      <tasks />
++      <arguments />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
++      <command value="run" />
++      <scripts />
++      <node-interpreter value="project" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
++      <method />
++    </configuration>
++    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
++      <method />
++    </configuration>
++    <configuration default="true" type="uTestRunConfiguration" factoryName="utest">
++      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
++      <module name="" />
++      <setting name="path" value="" />
++      <setting name="package" value="" />
++      <setting name="vmparams" value="" />
++      <setting name="params" value="" />
++      <setting name="workingDirectory" value="" />
++      <setting name="searchForTest" value="Across module dependencies" />
++      <setting name="testName" value="" />
++      <setting name="testKind" value="Class" />
++      <setting name="showProgressMessages" value="true" />
++      <envs />
++      <method />
++    </configuration>
++    <configuration default="false" name="Run" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
++      <module name="test1" />
++      <setting name="path" value="$PROJECT_DIR$/src/test1/elastictest.clj" />
++      <setting name="vmparams" value="" />
++      <setting name="params" value="" />
++      <setting name="workDir" value="" />
++      <setting name="repl" value="false" />
++      <method />
++    </configuration>
++    <configuration default="false" name="REPL" type="ClojureREPL" factoryName="Local">
++      <setting name="replType" value="1" />
++      <module name="test1" />
++      <setting name="jvmArgs" value="" />
++      <setting name="parameters" value="" />
++      <setting name="workingDir" value="$PROJECT_DIR$" />
++      <setting name="profiles" value="" />
++      <method />
++    </configuration>
++    <list size="2">
++      <item index="0" class="java.lang.String" itemvalue="Clojure Application.Run" />
++      <item index="1" class="java.lang.String" itemvalue="Clojure REPL.REPL" />
++    </list>
++    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
++      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
++    </configuration>
++  </component>
++  <component name="SbtLocalSettings">
++    <option name="modificationStamps">
++      <map>
++        <entry key="$PROJECT_DIR$/../../../../jelly/jellyfish/process/housekeeping_es" value="1472486206726" />
++        <entry key="$PROJECT_DIR$/../../../../scala/course2/assignments/calculator" value="1465303746000" />
++        <entry key="$PROJECT_DIR$/../../../../scala/course2/assignments/quickcheck" value="1464280970000" />
++        <entry key="$PROJECT_DIR$/../../../../scala/course2/assignments/streams" value="1471438434000" />
++        <entry key="$PROJECT_DIR$/../../../../scala/course3/assignments/w1/scalashop" value="1465228694000" />
++        <entry key="$PROJECT_DIR$/../../../../scala/course_assignments/w1/recfun" value="1462365530000" />
++        <entry key="$PROJECT_DIR$/../../../../scala/course_assignments/w3/objsets" value="1462315646000" />
++        <entry key="$PROJECT_DIR$/../../../../scala/course_assignments/w4/patmat" value="1462372864000" />
++        <entry key="$PROJECT_DIR$/../../../../scala/course_assignments/w6/forcomp" value="1462309612000" />
++      </map>
++    </option>
++    <option name="externalProjectsViewState">
++      <projects_view />
++    </option>
++  </component>
++  <component name="ShelveChangesManager" show_recycled="false">
++    <option name="remove_strategy" value="false" />
++  </component>
++  <component name="SvnConfiguration">
++    <configuration>$USER_HOME$/.subversion</configuration>
++  </component>
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="Default task">
++      <changelist id="b5cad9ee-cc09-4fcf-b9ed-6a04d94638a7" name="Default" comment="" />
++      <created>1483890731184</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1483890731184</updated>
++      <workItem from="1483890732717" duration="158000" />
++      <workItem from="1483890905168" duration="2312000" />
++      <workItem from="1483972329654" duration="2101000" />
++    </task>
++    <task id="LOCAL-00001" summary="other tests">
++      <created>1483890883152</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1483890883152</updated>
++    </task>
++    <option name="localTasksCounter" value="2" />
++    <servers />
++  </component>
++  <component name="TimeTrackingManager">
++    <option name="totallyTimeSpent" value="4571000" />
++  </component>
++  <component name="ToolWindowManager">
++    <frame x="0" y="30" width="1920" height="1050" extended-state="6" />
++    <layout>
++      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
++      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
++      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.505618" order="4" side_tool="true" content_ui="tabs" />
++      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32938644" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21344717" sideWeight="0.49438202" order="4" side_tool="false" content_ui="tabs" />
++      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32831" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16008538" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Memory View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
++      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
++      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
++      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
++      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
++      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
++      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
++      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
++      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
++      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
++    </layout>
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="processedProjectFiles" value="true" />
++  </component>
++  <component name="VcsContentAnnotationSettings">
++    <option name="myLimit" value="2678400000" />
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="other tests" />
++    <option name="LAST_COMMIT_MESSAGE" value="other tests" />
++  </component>
++  <component name="XDebuggerManager">
++    <breakpoint-manager />
++    <watches-manager />
++  </component>
++  <component name="antWorkspaceConfiguration">
++    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
++    <option name="FILTER_TARGETS" value="false" />
++  </component>
++  <component name="editorHistoryManager">
++    <entry file="file://$PROJECT_DIR$/LICENSE">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/test.json">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="17">
++          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/test1/core.clj">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="34">
++          <caret line="2" column="42" lean-forward="false" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/README.md">
++      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
++        <state split_layout="SPLIT">
++          <first_editor relative-caret-position="0">
++            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++            <folding />
++          </first_editor>
++          <second_editor />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/project.clj">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="85">
++          <caret line="5" column="98" lean-forward="false" selection-start-line="5" selection-start-column="98" selection-end-line="5" selection-end-column="98" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/LICENSE">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/project.clj">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/README.md">
++      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
++        <state split_layout="SPLIT">
++          <first_editor relative-caret-position="0">
++            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++            <folding />
++          </first_editor>
++          <second_editor />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/LICENSE">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/:google-Daniele.html">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="0">
++          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/test1/test.clj" />
++    <entry file="file://$PROJECT_DIR$/src/test1/boh.clj" />
++    <entry file="file://$PROJECT_DIR$/test.json">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="17">
++          <caret line="1" column="9" lean-forward="false" selection-start-line="1" selection-start-column="9" selection-end-line="1" selection-end-column="9" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/README.md">
++      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
++        <state split_layout="SPLIT">
++          <first_editor relative-caret-position="0">
++            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
++            <folding />
++          </first_editor>
++          <second_editor />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/project.clj">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="216">
++          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="47" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/test1/core.clj">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="272">
++          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++    <entry file="file://$PROJECT_DIR$/src/test1/elastictest.clj">
++      <provider selected="true" editor-type-id="text-editor">
++        <state relative-caret-position="286">
++          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
++          <folding />
++        </state>
++      </provider>
++    </entry>
++  </component>
++  <component name="masterDetails">
++    <states>
++      <state key="ArtifactsStructureConfigurable.UI">
++        <settings>
++          <artifact-editor />
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="FacetStructureConfigurable.UI">
++        <settings>
++          <last-edited>No facets are configured</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="GlobalLibrariesConfigurable.UI">
++        <settings>
++          <last-edited>scala-sdk-2.11.8</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="JdkListConfigurable.UI">
++        <settings>
++          <last-edited>1.8</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="ModuleStructureConfigurable.UI">
++        <settings>
++          <last-edited>test1</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++                <option value="0.6" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="ProjectJDKs.UI">
++        <settings>
++          <last-edited>1.8 (1)</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++      <state key="ProjectLibrariesConfigurable.UI">
++        <settings>
++          <last-edited>Leiningen: clj-http:2.3.0</last-edited>
++          <splitter-proportions>
++            <option name="proportions">
++              <list>
++                <option value="0.2" />
++              </list>
++            </option>
++          </splitter-proportions>
++        </settings>
++      </state>
++    </states>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/Clojure REPL b/Clojure REPL
+new file mode 100644
+index 0000000..4e615d5
+--- /dev/null
++++ b/Clojure REPL  
+@@ -0,0 +1,26 @@
++REPL Instructions
++
++Code can be entered at the bottom and executed by pressing shift+enter.
++
++Try it now by typing (+ 1 1) in the bottom section and pressing shift+enter.
++
++Working in another Clojure file and sending forms to the REPL is the most efficient way to work. Use the following key bindings to send code to the REPL. See the settings for more keybindings.
++
++ctrl-alt-, then b
++Execute block. Finds the block of Clojure code your cursor is in and executes that.
++
++ctrl-alt-, s
++Executes the selection. Sends the selected text to the REPL.
++
++You can disable this help text in the settings.
++Atom Ink does not appear to be installed. Install it to get a better REPL experience.
++Starting REPL with lein in /home/daneel/Sources/tests/clojure/learning/test1
++nREPL server started on port 37009 on host 127.0.0.1 - nrepl://127.0.0.1:37009
++Refreshing code...
++No user namespace defined. Defaulting to clojure.tools.namespace.repl/refresh.
++
++:reloading (test1.elastictest test1.core)
++20
++Refresh complete
++--------------------
++[1 2 3 4 5]
+diff --git a/project.clj b/project.clj
+index a509bfe..6657146 100644
+--- a/project.clj
++++ b/project.clj
+@@ -3,7 +3,11 @@
+   :url "http://example.com/FIXME"
+   :license {:name "Eclipse Public License"
+             :url "http://www.eclipse.org/legal/epl-v10.html"}
+-  :dependencies [[org.clojure/clojure "1.8.0"] [clj-http "2.3.0"] ]
+-  :main ^:skip-aot test1.core
++  :dependencies [
++                 [org.clojure/clojure "1.8.0"]
++                 [clj-http "2.3.0"]
++                 [org.clojure/data.json "0.2.6"]
++                 [clojurewerkz/elastisch "2.2.1"]]
++  :main ^:skip-aot test1.elastictest
+   :target-path "target/%s"
+   :profiles {:uberjar {:aot :all}})
+diff --git a/src/test1/core.clj b/src/test1/core.clj
+index befc9c9..de308c1 100644
+--- a/src/test1/core.clj
++++ b/src/test1/core.clj
+@@ -1,6 +1,6 @@
+ (ns test1.core
+   (:gen-class)
+-  (:require [clj-http.client :as client] ))
++  (:require [clj-http.client :as client] [clojure.data.json :as json]))
+ 
+ (declare search-string)
+ 
+diff --git a/src/test1/elastictest.clj b/src/test1/elastictest.clj
+new file mode 100644
+index 0000000..892e89b
+--- /dev/null
++++ b/src/test1/elastictest.clj
+@@ -0,0 +1,56 @@
++(ns test1.elastictest
++  (:gen-class)
++  (:require [clj-http.client :as client]
++            [clojure.data.json :as json]
++            [clojurewerkz.elastisch.rest :as esr]
++            [clojurewerkz.elastisch.rest.index :as esi]
++            [clojurewerkz.elastisch.rest.document :as esd]))
++
++(declare index-document create-index)
++
++(def conn-string "http://192.168.70.100:9200")
++(def mapping-name "person")
++(def mapping {mapping-name {:properties {:username   {:type "string" :store "yes"}
++                                              :first-name {:type "string" :store "yes"}
++                                              :last-name  {:type "string"}
++                                              :age        {:type "integer"}
++                                              :title      {:type "string" :analyzer "snowball"}
++                                              :planet     {:type "string"}
++                                              :biography  {:type "string" :analyzer "snowball" :term_vector "with_positions_offsets"}}}})
++
++(defn -main
++  "I don't do a whole lot ... yet."
++  [& args]
++  (println "Running elastic tests for a second time")
++
++  ; Connects to elastic and does all the stuff
++  (let [ conn (esr/connect conn-string)
++         index "daniele-test-1"
++         doc {:username "happyjoe" :first-name "Joe" :last-name "Smith" :age 30 :title "Teh Boss" :planet "Earth" :biography "N/A"}
++        ]
++
++    (println "Connected to elastic at " conn-string conn)
++
++    ; creates a test index w/ default settings
++    (esi/delete conn index)
++    (println "Index deleted")
++    ; (esi/create conn "daniele-test-1" :settings {"number_of_shards" 1 "number_of_replicas" 0} :mappings mapping-types)
++    (create-index conn index mapping)
++
++    (index-document conn index mapping-name "1" doc)
++    (println "Index created")
++    ) ; let
++  )
++
++(defn create-index 
++  "Creates an index"
++  [conn index mapping & {:keys [shards replicas] :or {shards 1 replicas 1} } ]
++    (esi/create conn index :settings {"number_of_shards" shards "number_of_replicas" replicas} :mappings mapping)
++  )
++
++(defn index-document 
++  "Indexes a new document"
++  [conn index mapping id doc]
++    (esd/put conn index mapping id doc)
++    (println "Document added")
++  )
+\ No newline at end of file
+diff --git a/test.json b/test.json
+new file mode 100644
+index 0000000..ade756b
+--- /dev/null
++++ b/test.json
+@@ -0,0 +1,4 @@
++{ "name": "daniele",
++  "age": 300,
++  "location": "italy"
++}
+\ No newline at end of file
+diff --git a/test/test1/core_test.clj b/test/test1/core_test.clj
+deleted file mode 100644
+index e1a0f3c..0000000
+--- a/test/test1/core_test.clj
++++ /dev/null
+@@ -1,7 +0,0 @@
+-(ns test1.core-test
+-  (:require [clojure.test :refer :all]
+-            [test1.core :refer :all]))
+-
+-(deftest a-test
+-  (testing "FIXME, I fail."
+-    (is (= 0 1))))

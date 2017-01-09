@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ReplState" timestamp="1483974432120">{:repl-history {:ide [], :local [&quot;(inc accessor\n     )&quot; &quot;(let [a 10] (inc a)) &quot; &quot;(println \&quot;ciao\&quot;)&quot; &quot;(exit)&quot;], :remote []}}</component>
+</project>
